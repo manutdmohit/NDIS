@@ -14,7 +14,7 @@ const NDISScheme = () => {
         <h2 className="text-center mb-3 fs-3 fw-bold">
           The National Disability Insurance Scheme (NDIS)
         </h2>
-        <p className="text-left fs-4">
+        <p className="text-left fs-4 p-3">
           NDIS is a scheme of the Australian Government legislated in 2013 that
           funds costs associated with disability and it is administered by the
           National Disability Insurance Agency (NDIA).
