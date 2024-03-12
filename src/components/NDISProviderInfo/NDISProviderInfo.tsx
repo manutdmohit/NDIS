@@ -59,53 +59,64 @@ const NDISProviderInfo = () => {
           />
           <h4 className="mt-2 text-center">Development Life Skills</h4>
         </div>
+
         <div className="col-md-4 mb-4 ndis-container">
           <img
-            src="./assets/house-hold-tasks.jpg"
+            src="./assets/participate-community-group.jpg"
             alt="Image 6"
             className="img-fluid"
           />
-          <h4 className="mt-2 text-center">Image 6 Title</h4>
+          <h4 className="mt-2 text-center">
+            Participate CommunityGroup/Centre Activities
+          </h4>
         </div>
         <div className="col-md-4 mb-4 ndis-container">
           <img
-            src="./assets/house-hold-tasks.jpg"
+            src="./assets/innovation-commmunity-participation.png"
             alt="Image 7"
             className="img-fluid"
           />
-          <h4 className="mt-2 text-center">Image 7 Title</h4>
+          <h4 className="mt-2 text-center">
+            Innovation Community Participation
+          </h4>
         </div>
         <div className="col-md-4 mb-4 ndis-container">
           <img
-            src="./assets/house-hold-tasks.jpg"
+            src="./assets/assist-daily-living.png"
             alt="Image 8"
             className="img-fluid"
           />
-          <h4 className="mt-2 text-center">Image 8 Title</h4>
+          <h4 className="mt-2 text-center">Assist Daily Living</h4>
         </div>
         <div className="col-md-4 mb-4 ndis-container">
           <img
-            src="./assets/house-hold-tasks.jpg"
+            src="./assets/specialist.png"
             alt="Image 9"
             className="img-fluid"
           />
-          <h4 className="mt-2 text-center">Image 9 Title</h4>
+          <h4 className="mt-2 text-center">
+            Specialist Positive Behaviour Support
+          </h4>
         </div>
         <div className="col-md-4 mb-4 ndis-container">
           <img
-            src="./assets/house-hold-tasks.jpg"
+            src="./assets/assist-cord.png"
             alt="Image 10"
             className="img-fluid"
           />
-          <h4 className="mt-2 text-center">Image 10 Title</h4>
+          <h4 className="mt-2 text-center">
+            Assist Co-ord Transition and Supports
+          </h4>
         </div>
         <div className="col-md-4 mb-4 ndis-container">
           <img
-            src="./assets/house-hold-tasks.jpg"
+            src="./assets/high-intensity.png"
             alt="Image 11"
             className="img-fluid"
           />
-          <h4 className="mt-2 text-center">Image 11 Title</h4>
+          <h4 className="mt-2 text-center">
+            High Intensity Daily Personal Activities
+          </h4>
         </div>
       </div>
     </div>
