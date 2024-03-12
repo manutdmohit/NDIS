@@ -35,7 +35,7 @@ const Header = () => {
       <div className="container-fluid">
         <Link
           href="tel: xxxxxxxxxx"
-          className="text-decoration-none text-white p-3 fs-4"
+          className="text-decoration-none text-white p-3 fs-4 call-us"
         >
           Call us at xxxxxx
         </Link>
