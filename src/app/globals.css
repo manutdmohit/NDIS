@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.quick-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    order: 2;
+  }
+
+  .logo {
+    order: 1;
+  }
+}
