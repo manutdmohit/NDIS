@@ -45,7 +45,7 @@ const Header = () => {
           type="button"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
-          <FaBars />
+          <FaBars className="outline-none" />
         </button>
         <div
           className={`collapse navbar-collapse ${mobileMenuOpen ? 'show' : ''}`}
