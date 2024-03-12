@@ -6,7 +6,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import Header from '@/components/Header/Header';
 import NewsLetter from '@/components/News Letter/NewsLetter';
-import Test from '@/components/Test/Test';
+import Test from '@/components/Hero/Hero';
 import HeaderNavigation from '@/components/Header Navigation/HeaderNavigation';
 import Footer from '@/components/Footer/Footer';
 import NDISProviderInfo from '@/components/NDISProviderInfo/NDISProviderInfo';

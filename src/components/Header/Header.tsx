@@ -31,11 +31,11 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="navbar navbar-expand-lg navbar-light bg-light">
+    <header className="navbar navbar-expand-lg navbar-light bg-light header-section">
       <div className="container-fluid">
         <Link
           href="tel: xxxxxxxxxx"
-          className="text-decoration-none text-black p-3 fs-4"
+          className="text-decoration-none text-white p-3 fs-4"
         >
           Call us at xxxxxx
         </Link>

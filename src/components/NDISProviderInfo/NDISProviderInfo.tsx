@@ -2,13 +2,13 @@ import React from 'react';
 
 const NDISProviderInfo = () => {
   return (
-    <div className="container">
+    <div className="container ndis-provider">
       <div className="row">
         <div className="col-12">
-          <h2 className="text-center mb-4">
+          <h2 className="text-center mb-2  fs-1 ">
             Proud to be a NDIS registered service provider!
           </h2>
-          <p className="text-center">
+          <p className="text-left fs-4">
             Our friendly team takes several approaches, and even customizes when
             needed the support programs depending on the physical and mental
             state of the participant. We strive to make a positive impact by
