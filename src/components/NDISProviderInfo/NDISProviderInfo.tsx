@@ -67,12 +67,12 @@ const NDISProviderInfo = () => {
             className="img-fluid"
           />
           <h4 className="mt-2 text-center">
-            Participate CommunityGroup/Centre Activities
+            Community Group/Centre Activities
           </h4>
         </div>
         <div className="col-md-4 mb-4 ndis-container">
           <img
-            src="./assets/innovation-commmunity-participation.png"
+            src="./assets/‌innovation.png"
             alt="Image 7"
             className="img-fluid"
           />
@@ -82,7 +82,7 @@ const NDISProviderInfo = () => {
         </div>
         <div className="col-md-4 mb-4 ndis-container">
           <img
-            src="./assets/assist-daily-living.png"
+            src="./assets/assist-daily.png"
             alt="Image 8"
             className="img-fluid"
           />
@@ -90,7 +90,7 @@ const NDISProviderInfo = () => {
         </div>
         <div className="col-md-4 mb-4 ndis-container">
           <img
-            src="./assets/specialist.png"
+            src="./assets/specialist-behaviour.png"
             alt="Image 9"
             className="img-fluid"
           />
