@@ -2,7 +2,7 @@ import React from 'react';
 
 const NDISProviderInfo = () => {
   return (
-    <div className="container ndis-provider">
+    <div className="container ndis-provider mt-2">
       <div className="row">
         <div className="col-12">
           <h2 className="text-center mb-2  fs-1 ">
@@ -18,7 +18,7 @@ const NDISProviderInfo = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col-md-4 mb-4">
+        <div className="col-md-4 mb-4 ndis-container">
           <img
             src="./assets/house-hold-tasks.jpg"
             alt="Image 1"
@@ -26,7 +26,7 @@ const NDISProviderInfo = () => {
           />
           <h4 className="mt-2 text-center">Household Tasks</h4>
         </div>
-        <div className="col-md-4 mb-4">
+        <div className="col-md-4 mb-4 ndis-container">
           <img
             src="./assets/assist-personal-activities.jpg"
             alt="Image 2"
@@ -35,7 +35,7 @@ const NDISProviderInfo = () => {
           <h4 className="mt-2 text-center">Assist Personal Activities</h4>
         </div>
         {/* Add more images with titles */}
-        <div className="col-md-4 mb-4">
+        <div className="col-md-4 mb-4 ndis-container">
           <img
             src="./assets/assist-travel-transport.jpg"
             alt="Image 3"
@@ -43,7 +43,7 @@ const NDISProviderInfo = () => {
           />
           <h4 className="mt-2 text-center">Assist Travel/Transport</h4>
         </div>
-        <div className="col-md-4 mb-4">
+        <div className="col-md-4 mb-4 ndis-container">
           <img
             src="./assets/community-nursing-care.jpg"
             alt="Image 4"
@@ -51,7 +51,7 @@ const NDISProviderInfo = () => {
           />
           <h4 className="mt-2 text-center">Community Nursing Care</h4>
         </div>
-        <div className="col-md-4 mb-4">
+        <div className="col-md-4 mb-4 ndis-container">
           <img
             src="./assets/development-life-skills.jpg"
             alt="Image 5"
@@ -59,7 +59,7 @@ const NDISProviderInfo = () => {
           />
           <h4 className="mt-2 text-center">Development Life Skills</h4>
         </div>
-        <div className="col-md-4 mb-4">
+        <div className="col-md-4 mb-4 ndis-container">
           <img
             src="./assets/house-hold-tasks.jpg"
             alt="Image 6"
@@ -67,7 +67,7 @@ const NDISProviderInfo = () => {
           />
           <h4 className="mt-2 text-center">Image 6 Title</h4>
         </div>
-        <div className="col-md-4 mb-4">
+        <div className="col-md-4 mb-4 ndis-container">
           <img
             src="./assets/house-hold-tasks.jpg"
             alt="Image 7"
@@ -75,7 +75,7 @@ const NDISProviderInfo = () => {
           />
           <h4 className="mt-2 text-center">Image 7 Title</h4>
         </div>
-        <div className="col-md-4 mb-4">
+        <div className="col-md-4 mb-4 ndis-container">
           <img
             src="./assets/house-hold-tasks.jpg"
             alt="Image 8"
@@ -83,7 +83,7 @@ const NDISProviderInfo = () => {
           />
           <h4 className="mt-2 text-center">Image 8 Title</h4>
         </div>
-        <div className="col-md-4 mb-4">
+        <div className="col-md-4 mb-4 ndis-container">
           <img
             src="./assets/house-hold-tasks.jpg"
             alt="Image 9"
@@ -91,7 +91,7 @@ const NDISProviderInfo = () => {
           />
           <h4 className="mt-2 text-center">Image 9 Title</h4>
         </div>
-        <div className="col-md-4 mb-4">
+        <div className="col-md-4 mb-4 ndis-container">
           <img
             src="./assets/house-hold-tasks.jpg"
             alt="Image 10"
@@ -99,7 +99,7 @@ const NDISProviderInfo = () => {
           />
           <h4 className="mt-2 text-center">Image 10 Title</h4>
         </div>
-        <div className="col-md-4 mb-4">
+        <div className="col-md-4 mb-4 ndis-container">
           <img
             src="./assets/house-hold-tasks.jpg"
             alt="Image 11"
