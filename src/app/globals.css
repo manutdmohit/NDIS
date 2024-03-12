@@ -25,11 +25,7 @@
   color: white;
 }
 
-.quick-links {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
+
 
 .intro p,
 .ndis-provider h2 {
