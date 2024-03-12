@@ -27,10 +27,12 @@
 
 .intro p {
   font-weight: 500 !important;
+  letter-spacing: 0.1rem;
 }
 
 .ndis-provider h2 {
   font-weight: 600 !important;
+  letter-spacing: 0.1rem;
 }
 
 .ndis-container {
@@ -45,6 +47,11 @@
   width: 290px;
   padding: 15px;
   font-size: 1.5rem;
+}
+
+.ndis-section h2,
+p {
+  letter-spacing: 0.1rem;
 }
 
 @media (max-width: 768px) {
