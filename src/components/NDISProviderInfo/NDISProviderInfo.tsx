@@ -2,7 +2,7 @@ import React from 'react';
 
 const NDISProviderInfo = () => {
   return (
-    <div className="container ndis-provider mt-2">
+    <div className="container ndis-provider mt-2 mb-4">
       <div className="row">
         <div className="col-12">
           <h2 className="text-center mb-2  fs-1 ">
