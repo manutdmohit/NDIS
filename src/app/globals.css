@@ -41,6 +41,12 @@
   height: 100%;
 }
 
+.btn-primary {
+  width: 290px;
+  padding: 15px;
+  font-size: 1.5rem;
+}
+
 @media (max-width: 768px) {
   .intro {
     order: 2;
