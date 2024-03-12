@@ -4,14 +4,14 @@ const NDISScheme = () => {
   return (
     <section className="ndis-section mb-5">
       <div className="container">
-        <div className="text-center mb-4">
+        <div className="text-center mb-4 ">
           <img
             src="/assets/ndis-support.png"
             alt="NDIS Logo"
             className="img-fluid"
           />
         </div>
-        <h2 className="text-center mb-3 fs-3">
+        <h2 className="text-center mb-3 fs-3 fw-bold">
           The National Disability Insurance Scheme (NDIS)
         </h2>
         <p className="text-left fs-4">
