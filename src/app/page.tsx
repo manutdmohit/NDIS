@@ -9,6 +9,7 @@ import NewsLetter from '@/components/News Letter/NewsLetter';
 import Test from '@/components/Hero/Hero';
 import HeaderNavigation from '@/components/Header Navigation/HeaderNavigation';
 import Footer from '@/components/Footer/Footer';
+import NDISScheme from '@/components/NDISSCheme/NDISScheme';
 import NDISProviderInfo from '@/components/NDISProviderInfo/NDISProviderInfo';
 
 export default function Website() {
@@ -17,6 +18,7 @@ export default function Website() {
       <Header />
       <Test />
       <NDISProviderInfo />
+      <NDISScheme />
       <Footer />
     </div>
   );
