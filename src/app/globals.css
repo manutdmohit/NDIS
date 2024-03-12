@@ -25,7 +25,11 @@
   color: white;
 }
 
-.intro p,
+.intro p{
+  font-weight: 500 !important;
+}
+
+
 .ndis-provider h2 {
   font-weight: 600 !important;
 }
