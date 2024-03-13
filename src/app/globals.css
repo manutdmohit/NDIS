@@ -27,14 +27,16 @@
 
 .nav-link,
 .logo,
-.call-us {
+.call-us,
+.ndis-provider img {
   transition: transform 0.3s ease-in-out;
 }
 
 /* Test */
 
 .nav-link:hover,
-.call-us:hover {
+.call-us:hover,
+.ndis-provider img:hover {
   transform: scale(1.2);
 }
 
@@ -58,6 +60,9 @@
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+.ndis-container img {
 }
 
 .btn-primary {
