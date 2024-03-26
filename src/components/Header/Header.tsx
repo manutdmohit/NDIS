@@ -8,23 +8,12 @@ const navigation = [
   { name: 'Home', href: '/' },
   // { name: 'Careers', href: '#' },
   // { name: 'Community Services', href: '#' },
+  { name: 'Services', href: '#' },
   { name: 'Contact Us', href: '#' },
   // { name: 'Donate', href: '#' },
   // { name: 'Search', href: '#' },
   { name: 'About Us', href: '#' },
   // { name: 'Get Involved', href: '#' },
-  { name: 'Services', href: '#' },
-];
-
-const allNavigations = [
-  { name: 'Home', href: '/' },
-  // { name: 'Careers', href: '#' },
-  // { name: 'Community Services', href: '#' },
-  { name: 'Contact Us', href: '#' },
-  // { name: 'Donate', href: '#' },
-  { name: 'About us', href: '#' },
-  // { name: 'Get Involved', href: '#' },
-  { name: 'Services', href: '#' },
 ];
 
 const Header = () => {
@@ -53,7 +42,7 @@ const Header = () => {
           <ul className="navbar-nav mb-2 ms-auto mb-lg-0 justify-content-end lg:me-auto">
             {navigation.map((item, index) => (
               <li key={index} className="nav-item">
-                <Link href={item.href} className="nav-link">
+                <Link href={item.href} className="nav-link px-4 fs-4">
                   {item.name}
                 </Link>
               </li>
