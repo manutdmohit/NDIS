@@ -6,24 +6,24 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'Careers', href: '#' },
-  { name: 'Community Services', href: '#' },
+  // { name: 'Careers', href: '#' },
+  // { name: 'Community Services', href: '#' },
   { name: 'Contact Us', href: '#' },
-  { name: 'Donate', href: '#' },
-  { name: 'Search', href: '#' },
+  // { name: 'Donate', href: '#' },
+  // { name: 'Search', href: '#' },
   { name: 'About Us', href: '#' },
-  { name: 'Get Involved', href: '#' },
+  // { name: 'Get Involved', href: '#' },
   { name: 'Services', href: '#' },
 ];
 
 const allNavigations = [
   { name: 'Home', href: '/' },
-  { name: 'Careers', href: '#' },
-  { name: 'Community Services', href: '#' },
+  // { name: 'Careers', href: '#' },
+  // { name: 'Community Services', href: '#' },
   { name: 'Contact Us', href: '#' },
-  { name: 'Donate', href: '#' },
+  // { name: 'Donate', href: '#' },
   { name: 'About us', href: '#' },
-  { name: 'Get Involved', href: '#' },
+  // { name: 'Get Involved', href: '#' },
   { name: 'Services', href: '#' },
 ];
 
