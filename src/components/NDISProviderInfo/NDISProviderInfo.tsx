@@ -24,7 +24,7 @@ const NDISProviderInfo = () => {
             alt="Image 1"
             className="img-fluid"
           />
-          <h4 className="mt-2 text-center">Household Tasks</h4>
+          <h4 className="mt-2 text-center fs-3">Household Tasks</h4>
         </div>
         <div className="col-md-4 mb-4 ndis-container">
           <img
@@ -32,7 +32,7 @@ const NDISProviderInfo = () => {
             alt="Image 2"
             className="img-fluid"
           />
-          <h4 className="mt-2 text-center">Assist Personal Activities</h4>
+          <h4 className="mt-2 text-center fs-3">Assist Personal Activities</h4>
         </div>
         {/* Add more images with titles */}
         <div className="col-md-4 mb-4 ndis-container">
@@ -41,7 +41,7 @@ const NDISProviderInfo = () => {
             alt="Image 3"
             className="img-fluid"
           />
-          <h4 className="mt-2 text-center">Assist Travel/Transport</h4>
+          <h4 className="mt-2 text-center fs-3">Assist Travel/Transport</h4>
         </div>
         <div className="col-md-4 mb-4 ndis-container">
           <img
@@ -49,7 +49,7 @@ const NDISProviderInfo = () => {
             alt="Image 4"
             className="img-fluid"
           />
-          <h4 className="mt-2 text-center">Community Nursing Care</h4>
+          <h4 className="mt-2 text-center fs-3">Community Nursing Care</h4>
         </div>
         <div className="col-md-4 mb-4 ndis-container">
           <img
@@ -57,7 +57,7 @@ const NDISProviderInfo = () => {
             alt="Image 5"
             className="img-fluid"
           />
-          <h4 className="mt-2 text-center">Development Life Skills</h4>
+          <h4 className="mt-2 text-center fs-3">Development Life Skills</h4>
         </div>
 
         <div className="col-md-4 mb-4 ndis-container">
@@ -66,7 +66,7 @@ const NDISProviderInfo = () => {
             alt="Image 6"
             className="img-fluid"
           />
-          <h4 className="mt-2 text-center">
+          <h4 className="mt-2 text-center fs-3">
             Community Group/Centre Activities
           </h4>
         </div>
@@ -76,7 +76,7 @@ const NDISProviderInfo = () => {
             alt="Image 7"
             className="img-fluid"
           />
-          <h4 className="mt-2 text-center">
+          <h4 className="mt-2 text-center fs-3">
             Innovation Community Participation
           </h4>
         </div>
@@ -86,7 +86,7 @@ const NDISProviderInfo = () => {
             alt="Image 8"
             className="img-fluid"
           />
-          <h4 className="mt-2 text-center">Assist Daily Living</h4>
+          <h4 className="mt-2 text-center fs-3">Assist Daily Living</h4>
         </div>
         <div className="col-md-4 mb-4 ndis-container">
           <img
@@ -94,7 +94,7 @@ const NDISProviderInfo = () => {
             alt="Image 9"
             className="img-fluid"
           />
-          <h4 className="mt-2 text-center">
+          <h4 className="mt-2 text-center fs-3">
             Specialist Positive Behaviour Support
           </h4>
         </div>
@@ -104,7 +104,7 @@ const NDISProviderInfo = () => {
             alt="Image 10"
             className="img-fluid"
           />
-          <h4 className="mt-2 text-center">
+          <h4 className="mt-2 text-center fs-3">
             Assist Co-ord Transition and Supports
           </h4>
         </div>
@@ -114,7 +114,7 @@ const NDISProviderInfo = () => {
             alt="Image 11"
             className="img-fluid"
           />
-          <h4 className="mt-2 text-center">
+          <h4 className="mt-2 text-center fs-3">
             High Intensity Daily Personal Activities
           </h4>
         </div>
