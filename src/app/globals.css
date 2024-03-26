@@ -25,7 +25,6 @@
   color: white;
 }
 
-.nav-link,
 .logo,
 .call-us,
 .ndis-provider img {
@@ -34,7 +33,6 @@
 
 /* Test */
 
-.nav-link:hover,
 .call-us:hover,
 .ndis-provider img:hover {
   transform: scale(1.2);
@@ -81,4 +79,28 @@ p {
   .logo {
     order: 1;
   }
+}
+
+.services-link {
+  position: relative;
+}
+
+.sub-menus {
+  display: none;
+  position: absolute;
+  /* top: 100%; */
+  top: 67px;
+  left: 0;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.services-link:hover .sub-menus {
+  display: block;
+}
+
+.sub-menus h5 {
+  width: 400px;
+  color: rgb(93, 93, 240);
+  font-weight: 600;
 }
