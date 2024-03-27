@@ -4,103 +4,125 @@
   box-sizing: border-box;
 }
 
-.header-section {
-  background: #355c7d !important; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to left,
-    #c06c84,
-    #6c5b7b,
-    #355c7d
-  ) !important; /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to left,
-    #c06c84,
-    #6c5b7b,
-    #355c7d
-  ) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* Add this CSS to your existing stylesheet or style tag */
+.navbar-brand img {
+  max-width: 100%;
+  height: auto;
 }
 
-.nav-link {
-  font-size: 1.2rem;
-  color: white;
+.navbar-nav .nav-link {
+  font-size: 1rem;
 }
 
-.logo,
-.call-us,
-.ndis-provider img {
-  transition: transform 0.3s ease-in-out;
+@media (min-width: 768px) {
+  .navbar-nav .nav-link {
+    font-size: 1.2rem;
+  }
 }
 
-/* Test */
-
-.call-us:hover,
-.ndis-provider img:hover {
-  transform: scale(1.2);
+@media (min-width: 992px) {
+  .navbar-nav .nav-link {
+    font-size: 1.4rem;
+  }
 }
 
-.logo:hover {
-  transform: scale(1.1);
+@media (min-width: 1200px) {
+  .navbar-nav .nav-link {
+    font-size: 1.6rem;
+  }
 }
 
-.intro p {
-  font-weight: 500 !important;
+.sub-menu .menu-item a {
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .sub-menu .menu-item a {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .sub-menu .menu-item a {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sub-menu .menu-item a {
+    font-size: 1.3rem;
+  }
+}
+
+.sub-menu {
+  width: 100%;
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+.menu-item {
+  width: auto; /* Allow items to expand based on content */
+  margin-top: 5px;
+  margin-right: 10px; /* Add spacing between items */
+}
+
+ul {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none !important;
+  list-style-type: none;
+  color: green !important;
   letter-spacing: 0.1rem;
+  font-size: 1.25rem;
+  font-weight: bold !important;
 }
 
-.ndis-provider h2 {
-  font-weight: 600 !important;
-  letter-spacing: 0.1rem;
+.bg-image {
+  background-image: url('https://img.freepik.com/free-photo/laughing-mother-daughter-doing-homework_23-2147800140.jpg?w=740&t=st=1711511199~exp=1711511799~hmac=8b5c454abd1236829e1491216da59edc1da44c4268ae182f59e6b5af79c0d177');
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat; /* Adjust as needed */
+  /* Add other styles as needed */
 }
 
-.ndis-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+/* If using CSS file */
+.bg-video {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.bg-video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
-.btn-primary {
-  width: 290px;
-  padding: 15px;
-  font-size: 1.5rem;
-}
-
-.ndis-section h2,
-p {
-  letter-spacing: 0.1rem;
-}
-
-@media (max-width: 768px) {
-  .intro {
-    order: 2;
-  }
-
-  .logo {
-    order: 1;
-  }
-}
-
-.services-link {
+/* If using CSS module */
+.relative {
   position: relative;
 }
 
-.sub-menus {
-  display: none;
+.absolute {
   position: absolute;
-  /* top: 100%; */
-  top: 67px;
+  top: 0;
   left: 0;
-  background-color: #fff;
-  padding: 10px;
-  border: 1px solid #ccc;
-}
-.services-link:hover .sub-menus {
-  display: block;
 }
 
-.sub-menus h5 {
-  width: 400px;
-  color: rgb(93, 93, 240);
-  font-weight: 600;
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.199); /* Adjust opacity here */
+}
+
+.intro p {
+  color: darkslategray;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
 }

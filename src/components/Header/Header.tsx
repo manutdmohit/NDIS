@@ -1,79 +1,138 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { FaBars, FaChevronDown } from 'react-icons/fa';
 
-const navigation = [
-  { name: 'Home', href: '/' },
-  // { name: 'Careers', href: '#' },
-  // { name: 'Community Services', href: '#' },
-  { name: 'Services', href: '#' },
-  { name: 'Contact Us', href: '#' },
-  // { name: 'Donate', href: '#' },
-  // { name: 'Search', href: '#' },
-  { name: 'About Us', href: '#' },
-  // { name: 'Get Involved', href: '#' },
-];
+const ServicesSubMenu = () => {
+  return (
+    <div className="services-submenu">
+      <ul className="sub-menu elementor-nav-menu-dropdown">
+        <li className="menu-item">
+          <Link
+            href="./assets/logo.jpg"
+            className="text-decoration-none text-black"
+          >
+            Supported Independent Living
+          </Link>
+        </li>
+        <li className="menu-item">
+          <Link
+            href="./assets/logo.jpg"
+            className="text-decoration-none text-black"
+          >
+            Short Term Accommodation
+          </Link>
+        </li>
+        <li className="menu-item">
+          <Link
+            href="./assets/logo.jpg"
+            className="text-decoration-none text-black"
+          >
+            NDIS Support Coordination
+          </Link>
+        </li>
+        <li className="menu-item">
+          <Link
+            href="./assets/logo.jpg"
+            className="text-decoration-none text-black"
+          >
+            Camps & Getaways
+          </Link>
+        </li>
+        <li className="menu-item">
+          <Link
+            href="https://shinesocialandcommunities.com.au/individual-support/"
+            className="text-decoration-none text-black"
+          >
+            Individual Support
+          </Link>
+        </li>
+        <li className="menu-item">
+          <Link
+            href="https://shinesocialandcommunities.com.au/group-programs/"
+            className="text-decoration-none text-black"
+          >
+            Group Programs & Activities
+          </Link>
+        </li>
+      </ul>
+    </div>
+  );
+};
 
-const Header = () => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+const Navigation = () => {
+  const [showSubMenu, setShowSubMenu] = useState(false);
+  const [showServicesSubMenu, setShowServicesSubMenu] = useState(false);
 
-  const toggleMobileMenu = () => {
-    console.log('clicked');
+  const toggleSubMenu = () => {
+    setShowSubMenu(!showSubMenu);
+    setShowServicesSubMenu(false); // Close ServicesSubMenu when Services link is clicked
+  };
 
-    setMobileMenuOpen(!mobileMenuOpen);
+  const toggleServicesSubMenu = () => {
+    setShowServicesSubMenu(!showServicesSubMenu);
   };
 
   return (
-    <header className="navbar navbar-expand-lg navbar-light bg-light header-section">
-      <div className="container-fluid">
-        <Link
-          href="tel: xxxxxxxxxx"
-          className="text-decoration-none text-white p-3 fs-4 call-us"
-        >
-          Call us at xxxxxx
+    <nav className="navbar navbar-expand-lg navbar-dark">
+      <div className="container">
+        <Link href="/" className="navbar-brand">
+          <img
+            width="150"
+            src="./assets/logo-removebg.png"
+            alt="logo"
+            sizes="(max-width: 430px) 50vw, 430px"
+          />
         </Link>
         <button
           className="navbar-toggler"
           type="button"
-          onClick={toggleMobileMenu}
+          onClick={toggleSubMenu}
         >
-          <FaBars className="outline-none" />
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          className={`collapse navbar-collapse ${mobileMenuOpen ? 'show' : ''}`}
+          className={`collapse navbar-collapse ${showSubMenu ? 'show' : ''}`}
         >
-          <ul className="navbar-nav mb-2 ms-auto mb-lg-0 justify-content-end lg:me-auto">
-            {navigation.map((item, index) => (
-              <li key={index} className="nav-item">
-                {item.name === 'Services' ? (
-                  <div className="nav-link px-4 fs-4 services-link">
-                    {item.name} <FaChevronDown className="chevron-icon" />
-                    <div className="sub-menus">
-                      {/* Content of your sub-menus here */}
-                      <h5 className="text-green-600 p-2">
-                        Support Independent Living
-                      </h5>
-                      <h5 className="text-green-600 p-2">
-                        NDIS Support Coordination
-                      </h5>
-                      <h5 className="text-green-600 p-2">Individual Support</h5>
-                      <h5 className="text-green-600 p-2">
-                        Group Programs & Activities
-                      </h5>
-                    </div>
-                  </div>
-                ) : (
-                  <Link href={item.href} className="nav-link px-4 fs-4">
-                    {item.name}
-                  </Link>
-                )}
-              </li>
-            ))}
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <Link href="/" className="nav-link px-4">
+                Home
+              </Link>
+            </li>
+            <li className="nav-item dropdown">
+              <Link
+                className="nav-link dropdown-toggle px-4"
+                href="#"
+                onClick={toggleServicesSubMenu}
+              >
+                Services
+              </Link>
+              <div
+                className={`dropdown-menu ${showServicesSubMenu ? 'show' : ''}`}
+                style={{ position: 'absolute' }}
+              >
+                <ServicesSubMenu />
+              </div>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="nav-link px-4"
+                href="https://shinesocialandcommunities.com.au/about-us/"
+              >
+                About Us
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/blog/" className="nav-link px-4">
+                News
+              </Link>
+            </li>
           </ul>
+
+          <button className="btn btn-primary fs-4">Get in Touch</button>
         </div>
       </div>
-    </header>
+    </nav>
   );
 };
 
-export default Header;
+export default Navigation;

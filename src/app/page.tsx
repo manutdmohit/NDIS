@@ -1,24 +1,38 @@
 'use client';
 
-import { useState } from 'react';
-import { Dialog } from '@headlessui/react';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import Link from 'next/link';
 import Header from '@/components/Header/Header';
-import NewsLetter from '@/components/News Letter/NewsLetter';
 import Test from '@/components/Hero/Hero';
-import HeaderNavigation from '@/components/Header Navigation/HeaderNavigation';
 import Footer from '@/components/Footer/Footer';
-import NDISScheme from '@/components/NDISSCheme/NDISScheme';
-import NDISProviderInfo from '@/components/NDISProviderInfo/NDISProviderInfo';
+import WhyUs from '@/components/WhyUs/WhyUs';
 
 export default function Website() {
   return (
-    <div className="bg-white">
-      <Header />
-      <Test />
-      <NDISProviderInfo />
-      <NDISScheme />
+    <div className="">
+      <div className="relative bg-video mb-5">
+        <div className="video-container">
+          <video
+            autoPlay
+            muted
+            loop
+            className="absolute inset-0 w-full h-full object-cover"
+          >
+            <source src="./assets/video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div className="overlay"></div>
+        </div>
+
+        {/* Content container */}
+        <div className="relative z-10">
+          <div className="container mx-auto px-4">
+            <Header />
+            <Test />
+          </div>
+        </div>
+      </div>
+
+      <WhyUs />
+
       <Footer />
     </div>
   );
