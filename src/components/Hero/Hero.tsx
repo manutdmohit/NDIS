@@ -5,7 +5,7 @@ const HeroSection = () => {
     <section className="mt-5 hero-section">
       <div className="container">
         <div className="row">
-          <div className="col-md-6  intro">
+          <div className="col-md-12  intro">
             {/* <p className="p-3 fs-4 text-black">
               We are a young team of dedicated NDIS service providers committed
               to enhancing the lives of individuals. With a team of skilled
