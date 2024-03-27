@@ -122,7 +122,16 @@ ul li a {
 }
 
 .intro p {
-  color: darkslategray;
   font-weight: bold;
   letter-spacing: 0.1rem;
+}
+
+@media (max-width: 400px) {
+  .hero-section {
+    margin-top: 10px;
+  }
+
+  .hero-section p {
+    font-size: 1.2rem !important;
+  }
 }
