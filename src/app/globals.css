@@ -125,3 +125,7 @@ ul li a {
   /* font-weight: bold; */
   letter-spacing: 0.1rem;
 }
+
+button.navbar-toggler {
+  background-color: green !important;
+}
