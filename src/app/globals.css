@@ -72,7 +72,7 @@ ul {
 ul li a {
   text-decoration: none !important;
   list-style-type: none;
-  color: green !important;
+  color: rgb(3, 33, 116) !important;
   letter-spacing: 0.1rem;
   font-size: 1.25rem;
   font-weight: bold !important;
