@@ -15,7 +15,7 @@ const HeroSection = () => {
               inclusivity in everything we do.
             </p> */}
 
-            <p className="p-3 fs-5">
+            <p className="p-3 fs-4 text-white">
               At Zestlife Disability, we are a spirited bunch of NDIS
               superheroes on a mission to sprinkle some magic into everyday
               life. Our team of expert wizards is here to offer a helping hand
