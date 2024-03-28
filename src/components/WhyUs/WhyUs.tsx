@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
 
 const WebsiteSection = () => {
@@ -29,9 +30,9 @@ const WebsiteSection = () => {
               encourage you to get in touch with us today. Together, we can
               navigate life's challenges and celebrate its triumphs.
             </p>
-            <a href="/contact-us/" className="btn btn-primary fs-4">
+            <Link href="/contact-us/" className="btn btn-primary fs-4">
               Get In Touch
-            </a>
+            </Link>
           </div>
           <div className="col-md-6 position-relative images-section">
             <Image
