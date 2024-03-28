@@ -1,49 +1,59 @@
 import React from 'react';
+import Image from 'next/image';
 
 const WebsiteSection = () => {
   return (
-    <section className="mt-5">
+    <section className="why-us-section mb-5">
       <div className="container">
         <div className="row">
-          <div className="col-md-8">
-            <h3 className="">Providing Support Where It's Needed Most</h3>
-            <p>
+          <div className="col-md-6">
+            <h3 className="mb-4 fs-3">
+              Providing Support Where It's Needed Most
+            </h3>
+            <p className="mb-3 fs-5">
               At Zest Life, our mission is to uplift and empower individuals to
               lead fulfilling lives. We're dedicated to offering personalized
               support that respects each person's unique journey and
               aspirations. Our comprehensive programs are tailored to address
               the holistic needs of our community members.
             </p>
-            <p>
+            <p className="mb-3 fs-5">
               With years of expertise and a commitment to excellence, our team
               is equipped to make a tangible impact in the lives of those we
               serve. We've cultivated a robust network of resources and
               partnerships to ensure that our participants receive the highest
               quality of care and support.
             </p>
-            <p>
+            <p className="mb-3 fs-5">
               If you or someone you know could benefit from our services, we
               encourage you to get in touch with us today. Together, we can
               navigate life's challenges and celebrate its triumphs.
             </p>
-            <a
-              href="https://zestlife.com.au/contact-us/"
-              className="btn btn-primary"
-            >
+            <a href="/contact-us/" className="btn btn-primary fs-4">
               Get In Touch
             </a>
           </div>
-          <div className="col-md-4">
-            <img
-              src="./assets/specialist-behaviour.png"
+          <div className="col-md-6 position-relative images-section">
+            <Image
+              src="/assets/specialist-behaviour.png"
               alt="Zest Life participants"
-              className="img-fluid"
+              className="rounded img-fluid"
+              width={500}
+              height={375}
+              layout="responsive"
             />
-            <img
-              src="./assets/‌innovation.png"
-              alt="Zest Life participants smiling at sunset"
-              className="img-fluid"
-            />
+            <div
+              className="position-absolute top-0 me-3 "
+              style={{ width: '100px', height: '100px' }}
+            >
+              <Image
+                src="/assets/high-intensity.png"
+                alt="Zest Life participants smiling at sunset"
+                className="rounded-circle second-image"
+                layout="fill"
+                objectFit="cover"
+              />
+            </div>
           </div>
         </div>
       </div>

@@ -129,3 +129,22 @@ ul li a {
 button.navbar-toggler {
   background-color: green !important;
 }
+
+.why-us-section {
+  margin-top: 80px;
+}
+
+.why-us-section p {
+  letter-spacing: 0.1rem;
+}
+
+.second-image {
+  top: -40px !important;
+  left: 10px !important;
+}
+
+@media (max-width: 768px) {
+  .images-section {
+    margin-top: 50px !important;
+  }
+}
