@@ -73,7 +73,7 @@ ul li a {
   text-decoration: none !important;
   list-style-type: none;
   color: rgb(3, 33, 116) !important;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.08rem;
   font-size: 1.25rem;
   font-weight: bold !important;
 }
@@ -123,7 +123,7 @@ ul li a {
 
 .intro p {
   /* font-weight: bold; */
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.08rem;
 }
 
 button.navbar-toggler {
@@ -131,11 +131,14 @@ button.navbar-toggler {
 }
 
 .why-us-section {
-  margin-top: 80px;
+  margin-top: 50px;
+  background-color: #f8fcff;
+  padding: 45px;
 }
 
-.why-us-section p {
-  letter-spacing: 0.1rem;
+.why-us-section p,
+.service {
+  letter-spacing: 0.08rem !important;
 }
 
 .second-image {
@@ -143,8 +146,14 @@ button.navbar-toggler {
   left: 10px !important;
 }
 
-.why-us-section h3 {
+.why-us-section h3,
+.ndis-provider h2 {
   font-weight: bold;
+}
+
+.ndis-container {
+  padding: 45px;
+  background: #fff1df;
 }
 
 @media (max-width: 768px) {

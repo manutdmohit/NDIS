@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const HeroSection = () => {
   return (
@@ -21,7 +22,9 @@ const HeroSection = () => {
               life. Our team of expert wizards is here to offer a helping hand
               with personal care and more because we believe in transforming
               challenges into triumphs!{' '}
-              <button className="btn btn-primary fs-4">Read More</button>
+              <Link href="/about-us">
+                <button className="btn btn-primary fs-4">Read More</button>
+              </Link>
             </p>
 
             {/* <p className="p-3 fs-4">

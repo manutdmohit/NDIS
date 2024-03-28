@@ -1,5 +1,8 @@
+'use client';
+
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const ServicesSubMenu = () => {
   return (
@@ -75,9 +78,10 @@ const Navigation = () => {
     <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container">
         <Link href="/" className="navbar-brand">
-          <img
+          <Image
             width="150"
-            src="./assets/logo-removebg.png"
+            height="150"
+            src="/assets/logo-removebg.png"
             alt="logo"
             sizes="(max-width: 430px) 50vw, 430px"
           />
@@ -114,16 +118,8 @@ const Navigation = () => {
               </div>
             </li>
             <li className="nav-item">
-              <Link
-                className="nav-link px-4"
-                href="https://shinesocialandcommunities.com.au/about-us/"
-              >
+              <Link className="nav-link px-4" href="/about-us">
                 About Us
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link href="/blog/" className="nav-link px-4">
-                News
               </Link>
             </li>
           </ul>

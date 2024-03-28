@@ -1,8 +1,8 @@
 'use client';
 
 import Header from '@/components/Header/Header';
-import Test from '@/components/Hero/Hero';
-import Footer from '@/components/Footer/Footer';
+import Hero from '@/components/Hero/Hero';
+import NDISProviderInfo from '@/components/NDISProviderInfo/NDISProviderInfo';
 import WhyUs from '@/components/WhyUs/WhyUs';
 
 export default function Website() {
@@ -26,14 +26,13 @@ export default function Website() {
         <div className="relative z-10">
           <div className="container mx-auto px-4">
             <Header />
-            <Test />
+            <Hero />
           </div>
         </div>
       </div>
 
       <WhyUs />
-
-      <Footer />
+      <NDISProviderInfo />
     </div>
   );
 }
