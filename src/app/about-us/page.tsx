@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <>
       <Header />
-      <section className="mt-5 mb-5 hero-section">
+      <section className="p-5 mt-3 mb-5 hero-section">
         <div className="container">
           <div className="row align-items-center mb-5">
             <div className="col-md-6">
