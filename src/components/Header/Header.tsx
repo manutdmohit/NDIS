@@ -4,54 +4,63 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-const ServicesSubMenu = () => {
+interface ServicesSubMenuProps {
+  showServicesSubMenu: boolean;
+}
+
+const ServicesSubMenu: React.FC<ServicesSubMenuProps> = ({
+  showServicesSubMenu,
+}) => {
   return (
-    <div className="services-submenu">
-      <ul className="sub-menu elementor-nav-menu-dropdown">
+    <div
+      className={`services-submenu ${showServicesSubMenu ? 'show' : ''}`}
+      style={{ position: 'absolute' }}
+    >
+      <ul className="sub-menu">
         <li className="menu-item">
           <Link
-            href="./assets/logo.jpg"
-            className="text-decoration-none text-black"
+            href="#"
+            className="text-decoration-none text-black submenu-link"
           >
             Supported Independent Living
           </Link>
         </li>
         <li className="menu-item">
           <Link
-            href="./assets/logo.jpg"
-            className="text-decoration-none text-black"
+            href="#"
+            className="text-decoration-none text-black submenu-link"
           >
             Short Term Accommodation
           </Link>
         </li>
         <li className="menu-item">
           <Link
-            href="./assets/logo.jpg"
-            className="text-decoration-none text-black"
+            href="#"
+            className="text-decoration-none text-black submenu-link"
           >
             NDIS Support Coordination
           </Link>
         </li>
         <li className="menu-item">
           <Link
-            href="./assets/logo.jpg"
-            className="text-decoration-none text-black"
+            href="#"
+            className="text-decoration-none text-black submenu-link"
           >
             Camps & Getaways
           </Link>
         </li>
         <li className="menu-item">
           <Link
-            href="https://shinesocialandcommunities.com.au/individual-support/"
-            className="text-decoration-none text-black"
+            href="#"
+            className="text-decoration-none text-black submenu-link"
           >
             Individual Support
           </Link>
         </li>
         <li className="menu-item">
           <Link
-            href="https://shinesocialandcommunities.com.au/group-programs/"
-            className="text-decoration-none text-black"
+            href="#"
+            className="text-decoration-none text-black submenu-link"
           >
             Group Programs & Activities
           </Link>
@@ -61,7 +70,7 @@ const ServicesSubMenu = () => {
   );
 };
 
-const Navigation = () => {
+const Navigation: React.FC = () => {
   const [showSubMenu, setShowSubMenu] = useState(false);
   const [showServicesSubMenu, setShowServicesSubMenu] = useState(false);
 
@@ -79,8 +88,8 @@ const Navigation = () => {
       <div className="container">
         <Link href="/" className="navbar-brand">
           <Image
-            width="150"
-            height="150"
+            width={150}
+            height={150}
             src="/assets/logo-removebg.png"
             alt="logo"
             sizes="(max-width: 430px) 50vw, 430px"
@@ -110,12 +119,7 @@ const Navigation = () => {
               >
                 Services
               </Link>
-              <div
-                className={`dropdown-menu ${showServicesSubMenu ? 'show' : ''}`}
-                style={{ position: 'absolute' }}
-              >
-                <ServicesSubMenu />
-              </div>
+              <ServicesSubMenu showServicesSubMenu={showServicesSubMenu} />
             </li>
             <li className="nav-item">
               <Link className="nav-link px-4" href="/about-us">
