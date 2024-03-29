@@ -7,15 +7,6 @@ const HeroSection = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-12  intro">
-            {/* <p className="p-3 fs-4 text-black">
-              We are a young team of dedicated NDIS service providers committed
-              to enhancing the lives of individuals. With a team of skilled
-              professionals, we offer a range of services including personal
-              care, community access, and many more. We strive to make a
-              positive impact by providing compassionate care and promoting
-              inclusivity in everything we do.
-            </p> */}
-
             <p className="p-3 fs-4 text-white">
               At Zestlife Disability, we are a spirited bunch of NDIS
               superheroes on a mission to sprinkle some magic into everyday
@@ -26,18 +17,7 @@ const HeroSection = () => {
                 <button className="btn btn-primary fs-4">Read More</button>
               </Link>
             </p>
-
-            {/* <p className="p-3 fs-4">
-              At Zestlife Disability, we are a passionate team dedicated to
-              empowering individuals through our NDIS services. With our skilled
-              professionals, we provide personalized care and support to enhance
-              the quality of life.
-            </p> */}
           </div>
-
-          {/* <div className="col-md-6 logo">
-            <img src="./assets/logo.jpg" alt="logo" className="img-fluid" />
-          </div> */}
         </div>
       </div>
     </section>
