@@ -124,7 +124,9 @@ const Navigation = () => {
             </li>
           </ul>
 
-          <button className="btn btn-primary fs-4">Get in Touch</button>
+          <Link href="/contact-us">
+            <button className="btn btn-primary fs-4">Get in Touch</button>
+          </Link>
         </div>
       </div>
     </nav>
