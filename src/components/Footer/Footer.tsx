@@ -22,7 +22,7 @@ const Footer = () => {
             <ul className="list-unstyled">
               <h5>Contact Details</h5>
               <li>Address: 23 Norman Dunlop Crescent Minto</li>
-              <li>Phone: 0452 150 350, 0482 026 019</li>6
+              <li>Phone: 0452 150 350, 0482 026 019</li>
               <li>Email: zestlifedisability@gmail.com</li>
             </ul>
           </div>
