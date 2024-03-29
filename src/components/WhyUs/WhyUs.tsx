@@ -53,6 +53,7 @@ const WebsiteSection = () => {
                 className="rounded-circle second-image"
                 layout="fill"
                 objectFit="cover"
+                sizes="100"
               />
             </div>
           </div>
