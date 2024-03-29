@@ -69,21 +69,22 @@ const Page: React.FC = () => {
                     <i className="fas fa-map-marker-alt"></i>
                     <div>
                       <h4 className="fs-4">Address</h4>
-                      <p className="fs-5">123 Main Street, City, State</p>
+                      <p className="fs-5">23 Norman Dunlop Crescent Minto</p>
                     </div>
                   </div>
                   <div className="contact-detail">
                     <i className="fas fa-phone"></i>
                     <div>
                       <h4 className="fs-4">Phone</h4>
-                      <p className="fs-5">(123) 456-7890</p>
+                      <p>0452150350, 0482026019</p>
+6
                     </div>
                   </div>
                   <div className="contact-detail">
                     <i className="fas fa-envelope"></i>
                     <div>
                       <h4 className="fs-4">Email</h4>
-                      <p className="fs-5">info@example.com</p>
+                      <p className="fs-5">zestlifedisability@gmail.com</p>
                     </div>
                   </div>
                 </div>
