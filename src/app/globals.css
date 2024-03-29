@@ -82,14 +82,6 @@ ul li a:hover {
   color: rgb(187, 190, 32) !important;
 }
 
-.bg-image {
-  background-image: url('https://img.freepik.com/free-photo/laughing-mother-daughter-doing-homework_23-2147800140.jpg?w=740&t=st=1711511199~exp=1711511799~hmac=8b5c454abd1236829e1491216da59edc1da44c4268ae182f59e6b5af79c0d177');
-  background-size: cover; /* Adjust as needed */
-  background-repeat: no-repeat; /* Adjust as needed */
-  /* Add other styles as needed */
-}
-
-/* If using CSS file */
 .bg-video {
   position: relative;
   width: 100%;
