@@ -2,7 +2,7 @@ import React from 'react';
 
 const NDISScheme = () => {
   return (
-    <section className="ndis-section mb-5">
+    <section className="ndis-section mt-5 mb-5">
       <div className="container">
         <div className="text-center mb-4 ">
           <img

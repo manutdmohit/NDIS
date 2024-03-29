@@ -4,6 +4,7 @@ import Header from '@/components/Header/Header';
 import Hero from '@/components/Hero/Hero';
 import JoinUsSection from '@/components/JoinUs/JoinUs';
 import NDISProviderInfo from '@/components/NDISProviderInfo/NDISProviderInfo';
+import NDISScheme from '@/components/NDISSCheme/NDISScheme';
 import WhyUs from '@/components/WhyUs/WhyUs';
 
 export default function Website() {
@@ -34,6 +35,7 @@ export default function Website() {
 
       <WhyUs />
       <NDISProviderInfo />
+      <NDISScheme />
       <JoinUsSection />
     </div>
   );
