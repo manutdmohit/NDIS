@@ -21,9 +21,9 @@ const Footer = () => {
           <div className="col-md-4 mb-4">
             <ul className="list-unstyled">
               <h5>Contact Details</h5>
-              <li>Address: 123 Main St, City, Country</li>
-              <li>Phone: +1234567890</li>
-              <li>Email: example@example.com</li>
+              <li>Address: 23 Norman Dunlop Crescent Minto</li>
+              <li>Phone: 0452 150 350, 0482 026 019</li>6
+              <li>Email: zestlifedisability@gmail.com</li>
             </ul>
           </div>
           <div className="col-md-4 quick-links mb-4">
