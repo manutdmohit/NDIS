@@ -76,7 +76,7 @@ const Page: React.FC = () => {
                     <i className="fas fa-phone"></i>
                     <div>
                       <h4 className="fs-4">Phone</h4>
-                      <p0452150350, 0482026019</p>
+                      <p>0452150350, 0482026019</p>
 6
                     </div>
                   </div>
