@@ -303,3 +303,17 @@ textarea.form-control {
     margin-top: 50px !important;
   }
 }
+
+@media (max-width: 625px) {
+  .services-submenu {
+    padding: 5px;
+  }
+
+  .sub-menu -menu-item {
+    font-size: 1rem;
+  }
+
+  .submenu-link {
+    font-size: 18px !important;
+  }
+}
