@@ -2,6 +2,14 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
+const getYear = () => {
+  const date = new Date();
+
+  const year = date.getFullYear();
+
+  return year;
+};
+
 const Footer = () => {
   return (
     <footer className="bg-dark text-light py-4 mx-auto">
@@ -20,15 +28,20 @@ const Footer = () => {
           </div>
           <div className="col-md-4 mb-4">
             <ul className="list-unstyled">
-              <h5>Contact Details</h5>
+              <h5 className="fs-4">Contact Details</h5>
               <li>Address: 23 Norman Dunlop Crescent Minto</li>
               <li>Phone: 0452 150 350, 0482 026 019</li>
-              <li>Email: zestlifedisability@gmail.com</li>
+              <Link
+                href="emailTo: zestlifedisability@gmail.com"
+                className="text-decoration-none text-white"
+              >
+                <li>Email: zestlifedisability@gmail.com</li>
+              </Link>
             </ul>
           </div>
           <div className="col-md-4 quick-links mb-4">
             <ul className="list-unstyled">
-              <h5>Quick Links</h5>
+              <h5 className="fs-4">Quick Links</h5>
               <li>
                 <Link href="/" className="text-decoration-none text-white">
                   Home
@@ -62,6 +75,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <p className="text-center">
+        © {getYear()} Zest Life Disability <br />
+        All Rights Reserved
+      </p>
     </footer>
   );
 };
