@@ -72,10 +72,9 @@ ul {
 ul li a {
   text-decoration: none !important;
   list-style-type: none;
-  color: limegreen !important;
   letter-spacing: 0.08rem;
-  font-size: 1.5rem !important;
-  font-weight: 600 !important;
+  font-size: 1.8rem !important;
+  color: limegreen !important;
 }
 
 ul li a:hover {
