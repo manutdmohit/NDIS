@@ -77,7 +77,6 @@ const Page: React.FC = () => {
                     <div>
                       <h4 className="fs-4">Phone</h4>
                       <p>0452150350, 0482026019</p>
-6
                     </div>
                   </div>
                   <div className="contact-detail">
