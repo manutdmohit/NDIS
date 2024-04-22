@@ -6,14 +6,16 @@ import './globals.css';
 
 import BootStrapClient from './BootstrapClient';
 
-import Header from '../components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 
 const barlow = Questrial({ weight: '400', subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'NDIS',
-  description: 'Helping Hands',
+  title: 'ZEST Life Ability',
+  description:
+    'Thrive Behind Barriers | Helping Hands. At Zestlife Ability, we are a spirited bunch of NDIS superheroes on a mission to sprinkle some magic into everyday life. Our team of expert wizards is here to offer a helping hand with personal care and more because we believe in transforming challenges into triumphs!',
+  keywords:
+    'Disability, Support, Togetherness, Assistance, Positive Mindset, Determination, Right Support',
 };
 
 export default function RootLayout({
